@@ -6,6 +6,9 @@
 將`snake.py`, `rock.png`, `candy.png`, `snake_head.png`, `snake_body.png`一起放在
 跟主程式同一個資料夾內。
 
+### 開發環境
+Mac OSX `10.11.6`，python `3.6.2`，pygame `1.9.3`。
+
 ### 使用套件
 `pip install pygame`
 
