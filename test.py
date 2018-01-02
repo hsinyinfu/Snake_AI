@@ -11,11 +11,12 @@ a[2][0] = 1
 a[2][1] = 1
 a[2][2] = 1
 a[2][3] = 1
-head = (3,2)
-print a
+print(a)
+score = 10
 
 snake.init()
-snake.draw(a, head)
+snake.draw(a, score, False)
 
 a[4][3] = -1
-snake.draw(a, head)
+score += 10
+snake.draw(a, score, True)
